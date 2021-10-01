@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
@@ -71,6 +72,43 @@ p {
     margin: 0 auto;
 }
 
+header nav{
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    margin:2% auto;
+}
+
+.nav-links-container{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin:0 6%;
+}
+
+.nav-links-container a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.background-image-home{
+    background-image: url(/img/jumbo.jpg);
+    background-size: cover;
+    height:15vh;
+    margin-top:4%;
+    margin-bottom:3%;
+}
+
+.background-image-about{
+    background-image: url(/img/jumbo-about.png);
+    background-size: cover;
+    height:15vh;
+    margin: 4% auto;
+    margin-bottom:3%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +120,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 1%;  
 }
 
 .middle-content {
@@ -143,4 +181,80 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* BOXES */
+#box-1{
+    background-color: teal;
+}
+#box-2{
+    background-color: gold;
+}
+#box-3{
+    background-color: cadetblue;
+}
+#box-4{
+    background-color: coral;
+}
+#box-5{
+    background-color: crimson;
+}
+#box-6{
+    background-color: forestgreen;
+}
+#box-7{
+    background-color: darkorchid;
+}
+#box-8{
+    background-color: hotpink;
+}
+#box-9{
+    background-color: indigo;
+}
+#box-10{
+    background-color: dodgerblue;
+}
+
+.about-summary{
+    margin: 0 2%;
+}
+
+.about-summary p{
+    margin-top:0px;
+    margin-bottom:3%;
+}
+
+.tiles{
+    border-top: 1px dashed black;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.tiles div{
+    width:46%;
+    margin:4% 2%;
+    border-bottom: 1px dashed black;
+}
+
+.tiles div h3,p,button{
+    margin:4% auto;
+}
+
+button{
+    background-color: white;
+    padding:2% 5%;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    border:2px solid black;
+    margin-top:1%;
+}
+
+.bottom-note{
+    margin:2%;
+    margin-bottom:4%;
+}
+
+.bottom-note p{
+    margin-top:2%;
 }
