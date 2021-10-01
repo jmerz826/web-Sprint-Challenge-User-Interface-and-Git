@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
@@ -89,7 +90,19 @@ header nav{
     color: black;
 }
 
+.background-image-home{
+    background-image: url(/img/jumbo.jpg);
+    background-size: cover;
+    height:15vh;
+    margin: 4% auto;
+}
 
+.background-image-about{
+    background-image: url(/img/jumbo-about.png);
+    background-size: cover;
+    height:15vh;
+    margin: 4% auto;
+}
 
 .top-content {
     display: flex;
@@ -195,4 +208,9 @@ footer nav a {
 }
 #box-10{
     background-color: dodgerblue;
+}
+
+.about-summary{
+    margin:2%;
+    padding-bottom:2%;
 }
