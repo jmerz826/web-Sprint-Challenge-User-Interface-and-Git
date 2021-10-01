@@ -81,20 +81,24 @@ header nav{
 
 .nav-links-container{
     display: flex;
-    justify-content: space-evenly;
-    width:100%
+    justify-content: space-between;
+    width:100%;
+    margin:0 6%;
 }
 
 .nav-links-container a{
     text-decoration: none;
     color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
 
 .background-image-home{
     background-image: url(/img/jumbo.jpg);
     background-size: cover;
     height:15vh;
-    margin: 4% auto;
+    margin-top:4%;
+    margin-bottom:3%;
 }
 
 .background-image-about{
@@ -116,7 +120,7 @@ header nav{
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 1%;  
 }
 
 .middle-content {
@@ -242,10 +246,12 @@ button{
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
+    border:2px solid black;
+    margin-top:1%;
 }
 
 .bottom-note{
-    margin:auto 2%;
+    margin:2%;
     margin-bottom:4%;
 }
 
