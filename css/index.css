@@ -102,6 +102,7 @@ header nav{
     background-size: cover;
     height:15vh;
     margin: 4% auto;
+    margin-bottom:3%;
 }
 
 .top-content {
@@ -211,8 +212,12 @@ footer nav a {
 }
 
 .about-summary{
-    margin:2%;
-    padding-bottom:2%;
+    margin: 0 2%;
+}
+
+.about-summary p{
+    margin-top:0px;
+    margin-bottom:3%;
 }
 
 .tiles{
@@ -237,4 +242,13 @@ button{
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
+}
+
+.bottom-note{
+    margin:auto 2%;
+    margin-bottom:4%;
+}
+
+.bottom-note p{
+    margin-top:2%;
 }
