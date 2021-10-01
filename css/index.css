@@ -214,3 +214,27 @@ footer nav a {
     margin:2%;
     padding-bottom:2%;
 }
+
+.tiles{
+    border-top: 1px dashed black;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.tiles div{
+    width:46%;
+    margin:4% 2%;
+    border-bottom: 1px dashed black;
+}
+
+.tiles div h3,p,button{
+    margin:4% auto;
+}
+
+button{
+    background-color: white;
+    padding:2% 5%;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
